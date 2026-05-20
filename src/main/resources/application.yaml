@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ResumeAiOptimizer
+    
+  ai:
+    model:
+      chat: google-genai
+    google:
+      genai:
+        api-key: XXXXXXX
+        chat:
+          options:
+            model: gemini-3-flash-preview
+        
